@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    background: url('#');
+    margin: 0 auto;
+    padding: auto;
+    height: 800px;
+    min-height: 70%
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/1.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    width: 20%;
+    cursor: pointer;
+    
+}
+
+.content {
+    position: absolute;
+    left: 35%;
+    bottom: 38%;
+    width: 30%;
+}
+
+.itemLeft {
+    left: 38%;
+    bottom: 35%;
+    position: absolute;
+}
+
+.itemRight {
+    left: 55%;
+    top: 62%;
+    position: absolute;
+}
+
+@media screen and (max-width:1100px) {
+    .content {
+        position: absolute;
+        left: 37%;
+        bottom: 38%;
+        width: 30%;
+    }
+
+    .logo {
+        position: absolute;
+        right: 35%;
+        top: 30%;
+        width: 30%;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        position: absolute;
+        left: 37%;
+        bottom: 42%;
+        width: 30%;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 18px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .itemLeft {
+        left: 37%;
+        bottom: 39%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 58%;
+        top: 58%;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .logo {
+        position: absolute;
+        right: 30%;
+        top:30%;
+        width: 40%;
+    }
+
+    .content {
+        position: absolute;
+        left: 37%;
+        bottom: 40%;
+        width: 34%;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 18px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .itemLeft {
+        left: 39%;
+        bottom: 37%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 58%;
+        top: 60%;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        position: absolute;
+        right: 32%;
+        top: 35%;
+        width: 30%;
+        
+    }
+
+    .content {
+        position: absolute;
+        left: 34%;
+        bottom: 42%;
+        width: 40%;
+    }
+
+    .itemLeft {
+        left: 36%;
+        bottom: 38%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 60%;
+        top: 59%;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        position: absolute;
+        right: 28%;
+        top: 35%;
+        width: 40%;
+        
+    }
+
+    .content {
+        position: absolute;
+        left: 35%;
+        bottom: 42%;
+        width: 45%;
+    }
+
+    .itemLeft {
+        left: 36%;
+        bottom: 40%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 64%;
+        top: 57%;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        position: absolute;
+        right: 28%;
+        top: 38%;
+        width: 40%;
+    }
+
+    .content {
+        position: absolute;
+        left: 35%;
+        bottom: 43%;
+        width: 45%;
+    }
+
+    .itemLeft {
+        left: 36%;
+        bottom: 41%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 64%;
+        top: 57%;
+        position: absolute;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .logo {
+        position: absolute;
+        right: 27%;
+        top: 40%;
+        width: 40%;
+        
+    }
+
+    .content {
+        position: absolute;
+        left: 25%;
+        bottom: 45%;
+        width: 60%;
+    }
+
+    .itemLeft {
+        left: 28%;
+        bottom: 43%;
+        position: absolute;
+    }
+    
+    .itemRight {
+        left: 64%;
+        top: 55%;
+        position: absolute;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 14px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+

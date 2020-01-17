@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> NotBad Editor</title>
+    <meta charset="utf-8">
+    <meta name="autor" content="Zhenya Vovchyk">
+    <meta name="keywords"
+        content="Create web-page, WebPageNote, test  HTML, test JavaScript, CSS, WEBnote, Fast note, WEBpad, WEB page test note, speed test html code, Test HTML5 CSS code online, HTML,CSS, Bootstrap, Web development, programming,training">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="icon" href="ico/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class=" menu justify-content-center" id="menuBg">
+        <button type="button" class="createBtn small">Create</button>
+        <button type="button" class="small btn-dark-sm btnClean">Clean page</button>
+        <button type="button" id="btn123" onclick="GFG_Fun()"
+            class=" jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'} small ">
+            Color
+        </button>
+        <label for="checkBox1" class="small check">Go</label>
+        <input type="checkbox" name="radioBtn" value="checkBox" id="checkBox1" onchange="check()">
+        <button type="button" class=" optionsBtn small" data-toggle="modal" data-target="#myModal">Options:</button>
+        <p><img src="img/123456.png" alt="logo" class="logo"></p>
+        <p id="out1"></p>
+    </div>
+    <img src="" class="img" class=""
+        style="width: 100%; height: auto; border: none; background-position: center; position: fixed;background-repeat: no-repeat;">
+    <form class="fixed-textarea">
+        <textarea id="backG" class="text" autofocus>
+ <!DOCTYPE html>
+ <html lang=" en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  </head>
+  <body>
+                                      
+ </body>
+</html>
+</textarea>
+    </form>
+    </div>
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-sm">
+            <button type="button" class="small close" data-dismiss="modal">
+                <h4 style="font-weight: bolder;">X</h4>
+            </button>
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-body">
+                    <label for="openimg" class="btn1 btn-dark-sm small small btnInput">Open imgFile</label>
+                    <label for="openfile" class="btn1 btn-dark-sm small small btnInput">OpenFile</label>
+                    <input type="file" onchange="previewFile()" style="display: none;" id="openimg" class="small btn99">
+                    <input type='file' id="openfile" onchange='openFile(event);' class="small btn99"
+                        style="display: none;">
+                    <button onclick="GFG_Fun()">
+                        click here
+                    </button>
+                    <label for="colorWell" class="btn1 btn-dark-sm small">
+                        <h3 class="btn1 btn-dark-sm small">Pick color</h3>
+                    </label>
+                    <input type="color" class="btn1 btn-dark" value="#ff0000" id="colorWell" style="display: none;">
+                    <input type="button" value="font_weight" id="inp5">
+                </div>
+                <div class="modal-body">
+                    <select id="fontFamilySelect" onchange="fun1()">
+                        <option value="Impact,Charcoal,sans-serif">Impact</option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jscolor.js"></script>
+<script src="js/fontFamily.js"></script>
+
+</html>
